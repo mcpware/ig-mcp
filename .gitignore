@@ -340,4 +340,5 @@ redis_data/
 # Local development
 local_config.py
 dev_settings.py
-.local/ 
+.local/ data/
+logs/
