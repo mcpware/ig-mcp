@@ -1,10 +1,18 @@
 # @mcpware/instagram-mcp
 
-[![npm version](https://img.shields.io/npm/v/@mcpware/instagram-mcp.svg)](https://www.npmjs.com/package/@mcpware/instagram-mcp)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
-[![MCP](https://img.shields.io/badge/MCP-compatible-purple)](https://modelcontextprotocol.io)
+<p align="center">
+  <a href="https://github.com/mcpware/instagram-mcp">
+    <img src="https://socialify.git.ci/mcpware/instagram-mcp/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Plus&stargazers=1&theme=Dark" alt="instagram-mcp" width="640" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@mcpware/instagram-mcp"><img src="https://img.shields.io/npm/v/@mcpware/instagram-mcp.svg" alt="npm version" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/node-%3E%3D20-brightgreen" alt="Node.js" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7-blue" alt="TypeScript" /></a>
+  <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/MCP-compatible-purple" alt="MCP" /></a>
+</p>
 
 Instagram MCP server — **23 tools** for the Instagram Graph API via [Model Context Protocol](https://modelcontextprotocol.io).
 
