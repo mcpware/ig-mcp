@@ -166,7 +166,7 @@ class TestInstagramClient:
         instagram_client._make_request.assert_called_once_with(
             "GET",
             f"test_media_id/insights",
-            params={"metric": "impressions,reach,likes,comments,shares,saves"},
+            params={"metric": "reach,likes,comments,shares,saved"},
         )
 
     @pytest.mark.asyncio
@@ -179,6 +179,8 @@ class TestInstagramClient:
         instagram_client._make_request = AsyncMock(
             side_effect=[container_response, publish_response]
         )
+        # Skip image validation in test
+        instagram_client._validate_image_aspect_ratio = AsyncMock()
 
         # Create publish request
         request = PublishMediaRequest(
